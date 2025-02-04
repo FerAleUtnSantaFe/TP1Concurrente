@@ -1,17 +1,17 @@
 package estrategia;
-import nodos.Node;
 
+import nodos.Node;
 
 public interface estrategia {
 
-    public Node addNode(Object value, Node HEAD);
+	public Node addNode(Object value, Node HEAD);
 
-    public Node removeNode(Object value, Node HEAD);
+	public Node removeNode(Object value, Node HEAD);
 
-    public Boolean contains(Object value, Node HEAD);
+	public Boolean contains(Object value, Node HEAD);
 
-    public String name();
+	public String name();
 
-    public Node getHEAD();
+	public Node getHEAD();
 
 }
