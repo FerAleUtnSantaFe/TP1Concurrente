@@ -1,5 +1,5 @@
 package estrategia;
-import Nodos.Node;
+import nodos.Node;
 
 
 public interface estrategia {
