@@ -69,7 +69,7 @@ public class EstrategiaNoBloqueante implements estrategia {
 
 	@Override
 	public Boolean contains(Object value, Node HEAD) {
-		boolean marked;
+		//boolean marked;
 		int key = value.hashCode();
 		NodeNoBloqueante curr = (NodeNoBloqueante) HEAD;
 		do
